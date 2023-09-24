@@ -1,0 +1,63 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Verify Your Email Address</title>
+   
+  </head>
+  <body style='color: #fff;'>
+    <div class='wrapper' style='background-color: #fff'>
+      <div class='container' style='color: #fff; background-color: #000; padding:20px'>
+
+        <h2 class='title' style='color: #fff'>Verify Your Email Address</h2>
+        <p class='sub-title' style='color: #fff'>
+          Dear
+          {{first_name}}
+          {{last_name}},
+        </p>
+        <p class='description' style='color: #fff'>
+          Thank you.To complete
+          your registration, we need to verify your email address.
+          <br />
+          Please click on the button below to verify your email.
+        </p>
+
+        <table
+          width='100%'
+          cellpadding='0'
+          cellspacing='0'
+          role='presentation'
+          style='margin: 30px 0'
+        >
+          <tr>
+            <td align='center'>
+              <a
+                class='button'
+                href='{{url}}'
+                style='
+                  background-color: #f2c862;
+                  color: #000;
+                  font-weight: bold;
+                  text-decoration: none;
+                  border-radius: 5px;
+                  width: 100%;
+                  padding: 10px 0;
+                  display: inline-block;
+                '
+              >
+                Verify your email
+              </a>
+            </td>
+          </tr>
+        </table>
+
+        <div class='devider'></div>
+
+        <center><p style='color: #fff' class='copyrights'>
+          &#169; 
+          {{presentYear}}
+          copyrights. All Rights Reserved.
+        </p></center>
+      </div>
+    </div>
+  </body>
+</html>
